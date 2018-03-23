@@ -1,5 +1,5 @@
 import {
-    ADD_RECIPE
+    ADD_RECIPE,
     REMOVE_FROM_CALENDAR
 } from "../actions";
 
@@ -67,3 +67,4 @@ function calendar ( state = initialCalendarState, action ) {
 }
 
 export default calendar
+
